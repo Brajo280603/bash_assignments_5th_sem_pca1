@@ -16,6 +16,8 @@ cat > "$userName/$fileName"
 
 echo -e "\nFile saved at './$userName/$fileName' Successfully"
 
+echo -e "\nFile contains $(wc -w < "$userName/$fileName") words"
+
 echo -e "\n File Details : "
 file "./$userName/$fileName"
 
