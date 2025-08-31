@@ -2,7 +2,7 @@ echo -e "\n\nEnter the file name : "
 
 read fileName
 
-files=$(find . -name "$fileName.*")
+files=$(find . -name "$fileName" )
 filesLen=${#files}
 	
 	if [ $filesLen -eq 0 ]; then
