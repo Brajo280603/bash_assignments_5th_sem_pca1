@@ -50,6 +50,8 @@ do
 
 			echo -e "\n\ntasks are now written in file : todo.txt"
 			;;
+		*)
+			echo -e "\n\nInvalid Option"
 			
 	esac
 
