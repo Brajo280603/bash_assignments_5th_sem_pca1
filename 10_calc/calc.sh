@@ -27,8 +27,14 @@ do
 			read first
 			echo -e "\nEnter the Second Number :"
 			read second
+			
+			if $(first -gt second); then
+				echo -e "\n$first - $second = $((first-second))"
+			else
+				echo -e "\n$first is smaller than $second"
+			fi
 
-			echo -e "\n$first - $second = $((first-second))"
+			
 			;;
 		3)
 			echo -e "\nEnter the First Number :"
@@ -43,8 +49,13 @@ do
 			read first
 			echo -e "\nEnter the Second Number :"
 			read second
-
-			echo -e "\n$first / $second = $((first/second))"
+		
+			
+			if $(first -gt second); then
+				echo -e "\n$first / $second = $((first/second))"
+			else
+				echo -e "\n$first is smaller than $second"
+			fi
 			;;
 		*)
 			echo -e "\nInvalid Option"
