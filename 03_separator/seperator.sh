@@ -29,3 +29,6 @@ echo "$evens" > even.txt
 echo "$odds" > odd.txt
 
 echo -e "\n\nOdd numbers are saved in ./odd.txt \nEven numbers are saved in ./even.txt"
+
+cat odd.txt
+cat even.txt
