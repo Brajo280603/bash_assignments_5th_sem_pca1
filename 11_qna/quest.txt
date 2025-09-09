@@ -1,10 +1,10 @@
 
 
 
-In what year did India successfully land a spacecraft on the Moon?,A) 2020  B) 2022   C) 2023    D) 2025,C
-
-
-How many Unions Territories are there in India?,A) 5  B) 6  C) 7  D) 8,D
+Who made the C Programming language?,A) Steve Jobs  B) Ken Thompson  C) Dennis Ritchie  D) Bill Gates,C
 
 
 In what year did India successfully land a spacecraft on the Moon?,A) 2020  B) 2022   C) 2023    D) 2025,C
+
+
+Who made the C Programming language?,A) Steve Jobs  B) Ken Thompson  C) Dennis Ritchie  D) Bill Gates,C

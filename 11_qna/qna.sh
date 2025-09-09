@@ -18,6 +18,7 @@ options=(
 answers=(C C B A D)
 
 score=0
+attend=0
 
 echo ""> quest.txt
 
@@ -26,8 +27,15 @@ while true;
 do
 	echo -e "\n\nEnter Question Number : "
 	read i
+	attend=$((attend + 1))
+	
+	if [ $i -eq 99 ]; then
+		break;
+	fi
 	i="$((i-1))"
-		
+	
+
+	
 
 	echo -e "\n\n${questions[$i]},${options[$i]},${answers[$i]}" >> quest.txt
 	echo "Q$((i+1)): ${questions[$i]}"
@@ -43,6 +51,6 @@ do
 		echo "Wrong! Correct answer: ${answers[$i]}"
 	fi
 done
-
+attend=$((attend-1))
 echo "Quiz finished!"
-echo "Your score: $score out of 5"
+echo "Your score: $score out of $attend"
