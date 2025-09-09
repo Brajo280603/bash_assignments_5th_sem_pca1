@@ -1,16 +1,10 @@
 
 
 
-Who made the C Programming language?,A) Steve Jobs  B) Ken Thompson  C) Dennis Ritchie  D) Bill Gates,C
-
-
 In what year did India successfully land a spacecraft on the Moon?,A) 2020  B) 2022   C) 2023    D) 2025,C
 
 
-What was the specific Nobel Prize awarded to Rabindranath Tagore in 1913?,A) Nobel Prize in Physics  B) Nobel Prize in Literature  C) Nobel Prize in Peace  D) Nobel Prize in Economics,B
-
-
-In what year the indian national anthem was written?,A) 1911  B) 1920  C) 1947  D) 1951,A
-
-
 How many Unions Territories are there in India?,A) 5  B) 6  C) 7  D) 8,D
+
+
+In what year did India successfully land a spacecraft on the Moon?,A) 2020  B) 2022   C) 2023    D) 2025,C

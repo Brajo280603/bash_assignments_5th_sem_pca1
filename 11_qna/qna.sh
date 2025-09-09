@@ -21,9 +21,14 @@ score=0
 
 echo ""> quest.txt
 
-for i in {0..4}
+#for i in {0..4}
+while true;
 do
-	
+	echo -e "\n\nEnter Question Number : "
+	read i
+	i="$((i-1))"
+		
+
 	echo -e "\n\n${questions[$i]},${options[$i]},${answers[$i]}" >> quest.txt
 	echo "Q$((i+1)): ${questions[$i]}"
 	echo "${options[$i]}"
