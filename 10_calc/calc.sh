@@ -28,13 +28,8 @@ do
 			echo -e "\nEnter the Second Number :"
 			read second
 			
-			if $(first -gt second); then
-				echo -e "\n$first - $second = $((first-second))"
-			else
-				echo -e "\n$first is smaller than $second"
-			fi
 
-			
+			echo -e "\n$first - $second = $((first-second))"
 			;;
 		3)
 			echo -e "\nEnter the First Number :"
@@ -47,17 +42,17 @@ do
 		4)
 			echo -e "\nEnter the First Number :"
 			read first
+			first="${first}.0"
 			echo -e "\nEnter the Second Number :"
 			read second
+			second="${second}.0"
 		
-			
-			if $(first -gt second); then
-				echo -e "\n$first / $second = $((first/second))"
-			else
-				echo -e "\n$first is smaller than $second"
-			fi
+			division=$(echo "scale=3;$first / $second" | bc -l )
+			echo -e "\n$first / $second = $division"
+
 			;;
 		*)
 			echo -e "\nInvalid Option"
+			;;
 	esac
 done
