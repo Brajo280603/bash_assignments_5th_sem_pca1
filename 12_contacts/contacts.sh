@@ -12,7 +12,7 @@ list_contacts() {
   if [ ! -s "$CONTACTS_FILE" ]; then
     echo "No contacts yet."
   else
-    nl -w2 -s") " "$CONTACTS_FILE"
+    nl "$CONTACTS_FILE"
   fi
 }
 
