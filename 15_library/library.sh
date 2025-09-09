@@ -38,7 +38,7 @@ search_book() {
   fi
 }
 
-#need fix if already issued no need to issue again
+
 issue_book() {
   read -p "Enter Book ID to issue: " id
   if grep -q "^$id,.*,Available$" "$FILE"; then
